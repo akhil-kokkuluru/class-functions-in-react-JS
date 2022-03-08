@@ -1,0 +1,58 @@
+.totalcontainer {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.fruits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.images {
+  width: 180px;
+  align-self: center;
+}
+
+.buttons {
+  background-color: #007bff;
+  color: #ffffff;
+  width: 120px;
+  height: 30px;
+  align-self: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-family: Roboto;
+  cursor: pointer;
+  outline: none;
+}
+
+.fruitCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.spanElement {
+  color: #ffd569;
+}
+
+@media screen and (max-width: 768px) {
+  .fruitCards {
+    flex-direction: column;
+  }
+  .totalcontainer {
+    height: 600px;
+    width: 300px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+}
